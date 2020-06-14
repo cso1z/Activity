@@ -1,4 +1,4 @@
-package com.xyz.activity;
+package com.xyz;
 
 import android.app.Activity;
 import android.content.res.Configuration;
@@ -8,6 +8,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+
+import com.xyz.lifecycle.R;
 
 /**
  * created by shenyonghui on 2020/5/27

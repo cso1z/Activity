@@ -1,4 +1,4 @@
-package com.xyz.activity;
+package com.xyz;
 
 import android.content.Context;
 import android.content.Intent;
@@ -12,6 +12,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.widget.AppCompatTextView;
 import androidx.core.content.ContextCompat;
+
+import com.xyz.lifecycle.R;
 
 import java.util.Locale;
 
@@ -44,9 +46,7 @@ public class ClickItemView extends AppCompatTextView implements View.OnClickList
     }
 
     public void setData(String text, Class clazz) {
-        if (text != null) {
-            setText(text);
-        }
+        setText(text);
         this.aClass = clazz;
     }
 

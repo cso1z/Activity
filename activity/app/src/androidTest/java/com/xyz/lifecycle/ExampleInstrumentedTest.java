@@ -1,4 +1,4 @@
-package com.xyz.activity;
+package com.xyz.lifecycle;
 
 import android.content.Context;
 

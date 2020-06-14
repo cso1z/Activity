@@ -1,4 +1,4 @@
-package com.xyz.activity;
+package com.xyz.lifecycle;
 
 import android.Manifest;
 import android.content.Intent;
@@ -11,6 +11,8 @@ import android.util.Log;
 import androidx.annotation.Nullable;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
+
+import com.xyz.BaseActivity;
 
 /**
  * created by shenyonghui on 2020/5/27
